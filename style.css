@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #141414;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+    margin: 50px 15px;
+    background-color: #1F1F1F;
+    padding: 35px 20px;
+    border-radius: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: inherit;
+}
+
+.name {
+    color: #F9F9F9;
+    font-size: 27px;
+    font-weight: 600;
+    background-color: inherit;
+}
+
+.location {
+    font-size: 16px;
+    font-weight: 600;
+    color: #AAD12A;
+    background-color: inherit;
+    margin-top: 7px;
+    margin-bottom: 25px;
+}
+
+.skills {
+    font-size: 15px;
+    font-weight: 400;
+    color: #a4a2a2;
+    background-color: inherit;
+    margin-bottom: 20px;
+}
+
+.img-div {
+    background-color: inherit;
+}
+
+.img-div img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    background-color: inherit;
+}
+
+.btn-redirect {
+    color: #F9F9F9;
+    background-color: #333333;
+    border-radius: 10px;
+    border: none;
+    padding: 13px 10px;
+    margin: 5px 10px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn-redirect a {
+    text-decoration: none;
+    color: #F9F9F9;
+    background-color: inherit;
+}
